@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sp_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.3"
+                android:text="No#"
+                android:textColor="#000000"
+                android:textSize="11dp" />
+
+
+            <TextView
+                android:id="@+id/sp_name"
+                android:layout_width="7dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="11dp" />
+
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/sp_username"
+                android:text="Username"
+                android:textColor="#000000"
+                android:textSize="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/sp_adate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="dateofpurchase"
+                android:textColor="#000000"
+                android:textSize="11dp" />
+
+            <TextView
+                android:id="@+id/sp_totalbv"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

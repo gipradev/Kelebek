@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+
+            android:icon="@drawable/dashboard"
+            android:id="@+id/nav_dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:icon="@drawable/strategy"
+            android:id="@+id/nav_strategy"
+            android:title="@string/menu_productstore" />
+
+
+        <item
+            android:icon="@drawable/genealogy"
+            android:id="@+id/nav_genealogy"
+            android:title="@string/menu_genealogy">
+            <menu>
+            <item
+               android:visible="true"
+                android:id="@+id/nav_newentryposition"
+                android:title=" * New Entry Position" />
+                <item
+                    android:visible="true"
+                android:id="@+id/nav_binarygene"
+                android:title=" * Binary Geneology" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_sponsortree"
+            android:title=" * Sponsor Tree" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_sponsortree_tabview"
+            android:title=" * Sponsor Tree Tabular View" />
+</menu>
+           </item>
+        <item
+            android:icon="@drawable/registrationform"
+            android:id="@+id/nav_regform"
+            android:title="@string/menu_regform" />
+        <item
+            android:icon="@drawable/wallet"
+            android:id="@+id/nav_wallet"
+            android:title="@string/menu_wallet" >
+            <menu>
+        <item
+            android:visible="true"
+            android:id="@+id/nav_incomewallet"
+            android:title=" * Income Wallet Transactions" />
+            </menu>
+        </item>
+
+        <item
+            android:icon="@drawable/report"
+            android:id="@+id/nav_report"
+            android:title="@string/menu_report" >
+        <menu>
+        <item
+            android:visible="true"
+            android:id="@+id/nav_sponsorlist"
+            android:title=" * Sponsor List" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_cponelist"
+            android:title="* Channel Parter 1 List" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_cptwolist"
+            android:title=" * Channel Partner 2 List" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_cponesales"
+            android:title="* Channel Partner 1 Sales" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_cptwosales"
+            android:title=" * Channel Partner 2 Sales" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_group_repurchase"
+            android:title="* Group Repurchase Sales" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_personal_firstpurchaseBV"
+            android:title=" * Personal First Purchase BV" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_personal_repurchasePV"
+            android:title=" * Personal Repurchase PV" />
+
+        </menu>
+        </item>
+
+        <item
+            android:icon="@drawable/incomedetails"
+            android:id="@+id/nav_incomedetails"
+            android:title="@string/menu_incomedetails" >
+        <menu>
+        <item
+            android:visible="true"
+            android:id="@+id/nav_account_statement"
+            android:title=" * Account Statement" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_cp_GBVmatching"
+            android:title=" * Channel Partner GBV Matching" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_cpbonus"
+            android:title=" * Channel Partner Bonus" />
+        <item
+        android:visible="true"
+        android:id="@+id/nav_per_bonus_details"
+        android:title=" * Performance Bonus Details" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_per_bonus_income"
+            android:title=" * Performance Bonus Income" />
+
+        <item
+            android:visible="true"
+            android:id="@+id/nav_royaltyincome"
+            android:title=" * Royalty Income" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_desig_achiev"
+            android:title=" * Designation Achievement" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_desig_achiev_bonus"
+            android:title=" * Designation Achievement Bonus" />
+        </menu>
+        </item>
+        <item
+            android:icon="@drawable/news"
+            android:id="@+id/nav_news"
+            android:title="@string/menu_news" />
+
+    </group>
+
+
+
+</menu>

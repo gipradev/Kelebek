@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.Report.CpSales.CpSalesList">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/cp_count_sales"
+                    android:text="No#"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:background="@drawable/round_bg"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Username"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Date Of Purchase"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="Product"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="BV"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text=":"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text=":"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text=":"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text=":"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text=":"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:id="@+id/cp_name_sales"
+                        android:text="Name"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/cp_username_sales"
+                        android:text="Username"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/cp_date_sales"
+                        android:text="Date Of Purchase"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/cp_product_sales"
+                        android:text="Product"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/cp_bv_sales"
+                        android:text="BV"
+                        android:textColor="#000000"
+                        android:textSize="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+<!--<HorizontalScrollView-->
+
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content">-->
+<!--    <RelativeLayout-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <TextView-->
+<!--            android:id="@+id/cp_count_sales"-->
+<!--            android:text="No#"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/cp_name_sales"-->
+<!--            android:text="Name"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/cp_username_sales"-->
+<!--            android:text="Username"-->
+<!--            android:layout_marginLeft="150dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/cp_date_sales"-->
+<!--            android:text="Date Of Purchase"-->
+<!--            android:layout_marginLeft="250dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/cp_product_sales"-->
+<!--            android:text="Product"-->
+<!--            android:layout_marginLeft="400dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/cp_bv_sales"-->
+<!--            android:text="BV"-->
+<!--            android:layout_marginLeft="550dp"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15dp"-->
+<!--            android:layout_marginLeft="600dp"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </RelativeLayout>-->
+<!--</HorizontalScrollView>-->
+        <LinearLayout
+            android:background="@drawable/horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

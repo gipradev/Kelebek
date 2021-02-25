@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfile.BinaryDetails_CpGBV">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/colorAccent">
+            <ImageView
+                android:id="@+id/back_binary"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/arrow" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Channel Partners GBV Matching"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+       <LinearLayout
+           android:paddingRight="5dp"
+           android:paddingLeft="5dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_marginTop="20dp"
+               android:gravity="center_horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="Select Date"
+                   android:textColor="#000000"
+                   android:textSize="15sp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <Spinner
+                   android:id="@+id/binary_date_gbv"
+                   android:hint="DD/MM/YYYY"
+                   android:layout_marginLeft="5dp"
+                   android:textColor="#000000"
+                   android:textSize="14sp"
+                   android:background="@drawable/searchbg"
+                   android:layout_width="150dp"
+                   android:layout_height="30dp"/>
+               <Button
+                   android:id="@+id/binary_search_gbv"
+                   android:layout_marginLeft="20dp"
+                   android:text="Search"
+                   android:textAllCaps="false"
+                   android:textColor="#FFFFFF"
+                   android:background="@drawable/ic_square"
+                   android:layout_width="90dp"
+                   android:layout_height="30dp"/>
+           </LinearLayout>
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/recycler_binarygbv"
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+       </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

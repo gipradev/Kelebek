@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.gipra.kelebek.ui.Dashboard.DashBoardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dash_board" />
+
+    <fragment
+        android:id="@+id/nav_strategy"
+        android:name="com.gipra.kelebek.ui.StrategyFragment"
+        android:label="@string/menu_productstore"
+        tools:layout="@layout/fragment_strategy" />
+
+    <fragment
+        android:id="@+id/nav_upgrade"
+        android:name="com.gipra.kelebek.ui.UpgradeBA.UpgradeBAFragment"
+        android:label="@string/menu_upgrade"
+        tools:layout="@layout/fragment_upgrade_ba" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_genealogy"-->
+<!--        android:name="com.gipra.shero.ui.GenealogyFragment"-->
+<!--        android:label="@string/menu_genealogy"-->
+<!--        tools:layout="@layout/fragment_genealogy" />-->
+
+    <fragment
+        android:id="@+id/nav_regform"
+        android:name="com.gipra.kelebek.ui.RegistrationFragment"
+        android:label="@string/menu_regform"
+        tools:layout="@layout/fragment_registration" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_wallet"-->
+<!--        android:name="com.gipra.shero.ui.WalletFragment"-->
+<!--        android:label="@string/menu_wallet"-->
+<!--        tools:layout="@layout/fragment_wallet" />-->
+    <fragment
+        android:id="@+id/nav_incomewallet"
+        android:name="com.gipra.kelebek.ui.Wallet.IncomewalletTransaction"
+        android:label="Income Wallet"
+        tools:layout="@layout/fragment_incomewallet_transaction" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_report"-->
+<!--        android:name="com.gipra.shero.ui.ReportFragment"-->
+<!--        android:label="@string/menu_report"-->
+<!--        tools:layout="@layout/fragment_report" />-->
+    <fragment
+        android:id="@+id/nav_sponsorlist"
+        android:name="com.gipra.kelebek.ui.Report.SponsorList.SponsorList"
+        android:label="Sponsor List"
+        tools:layout="@layout/fragment_sponsor_list" />
+    <fragment
+        android:id="@+id/nav_cponelist"
+        android:name="com.gipra.kelebek.ui.Report.Cp_One_List.ChannelPartnerOneList"
+        android:label="Channel Partner 1 List"
+        tools:layout="@layout/fragment_channel_partner_one_list" />
+    <fragment
+        android:id="@+id/nav_cptwolist"
+        android:name="com.gipra.kelebek.ui.Report.Cp_One_List.ChannelPartnerTwoList"
+        android:label="Channel Partner 2 List"
+        tools:layout="@layout/fragment_channel_partner_two_list" />
+    <fragment
+        android:id="@+id/nav_cponesales"
+        android:name="com.gipra.kelebek.ui.Report.CpSales.ChannelPartnerOneSales"
+        android:label="Channel Partner 1 Sales"
+        tools:layout="@layout/fragment_channel_partner_one_sales" />
+    <fragment
+        android:id="@+id/nav_cptwosales"
+        android:name="com.gipra.kelebek.ui.Report.CpSales.ChannelPartnerTwoSales"
+        android:label="Channel Partner 2 Sales"
+        tools:layout="@layout/fragment_channel_partner_two_sales" />
+    <fragment
+        android:id="@+id/nav_group_repurchase"
+        android:name="com.gipra.kelebek.ui.Report.GroupRepurchaseSales.GroupRepurchaseSales"
+        android:label="Group Repurchase Sales"
+        tools:layout="@layout/fragment_channel_partner_one_sales" />
+    <fragment
+        android:id="@+id/nav_personal_firstpurchaseBV"
+        android:name="com.gipra.kelebek.ui.Report.PersonalPurchaseBV.PersonalFirstPurchaseBV"
+        android:label="Personal First Purchase BV"
+        tools:layout="@layout/fragment_personal_first_purchase_bv" />
+    <fragment
+        android:id="@+id/nav_personal_repurchasePV"
+        android:name="com.gipra.kelebek.ui.Report.PersonalRepurschasePV.PersonalRepurchasePV"
+        android:label="Personal Repurchase PV"
+        tools:layout="@layout/fragment_personal_repurchase_pv" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_incomedetails"-->
+<!--        android:name="com.gipra.shero.ui.IncomeDetailsFragment"-->
+<!--        android:label="@string/menu_incomedetails"-->
+<!--        tools:layout="@layout/fragment_income_details" />-->
+    <fragment
+        android:id="@+id/nav_account_statement"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.AccountStatement"
+        android:label="Account Statement"
+        tools:layout="@layout/fragment_account_statement" />
+    <fragment
+        android:id="@+id/nav_cp_GBVmatching"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.Team_Sales_BV_matching.TeamSalesBVMatchingFragment"
+        android:label="Channel Partner GBV Matching"
+        tools:layout="@layout/fragment_channel_partner_gbv" />
+    <fragment
+        android:id="@+id/nav_cpbonus"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.LeaderSuccessBonus.LeaderSuccessBonusFragment"
+        android:label="Channel Partner Bonus"
+        tools:layout="@layout/fragment_leader_success_bonus" />
+    <fragment
+        android:id="@+id/nav_per_bonus_details"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.Repurchase_Income.RepurchaseIncomeFragment"
+        android:label="Performance Bonus Details"
+        tools:layout="@layout/fragment_repurchase_income" />
+    <fragment
+        android:id="@+id/nav_per_bonus_income"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.Team_Sales_Bonus_details.TeamSalesBonusFragment"
+        android:label="Performance Bonus Income"
+        tools:layout="@layout/fragment_performance__bonus__income" />
+    <fragment
+        android:id="@+id/nav_royaltyincome"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.Repurchase_BV_Report.RepurchaseBVReportFragment"
+        android:label="Royalty Income"
+        tools:layout="@layout/fragment_royalty_income" />
+    <fragment
+        android:id="@+id/nav_desig_achiev"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.Leader_Level_BV.LeaderLevelBVFragment"
+        android:label="Designation Achievements"
+        tools:layout="@layout/fragment_designation_achievements" />
+    <fragment
+        android:id="@+id/nav_desig_achiev_bonus"
+        android:name="com.gipra.kelebek.ui.IncomeDetails.First_Purchase_BV_Report.FirstPurchaseBVFragment"
+        android:label="Designation Achievements Bonus"
+        tools:layout="@layout/fragment_designation_achievement_bonus" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.gipra.kelebek.ui.News.NewsFragment"
+        android:label="@string/menu_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_newentryposition"
+        android:name="com.gipra.kelebek.ui.Genealogy.NewEntryPosition"
+        android:label="New Entry Position"
+        tools:layout="@layout/fragment_new_entry_position"/>
+    <fragment
+        android:id="@+id/nav_binarygene"
+        android:name="com.gipra.kelebek.ui.Genealogy.BinaryGene"
+        android:label="Binary Geneology"
+        tools:layout="@layout/fragment_binary_gene"/>
+    <fragment
+        android:id="@+id/nav_sponsortree"
+        android:name="com.gipra.kelebek.ui.Genealogy.SponsorTree"
+        android:label="Sponsor Tree"
+        tools:layout="@layout/fragment_sponsor_tree"/>
+    <fragment
+        android:id="@+id/nav_sponsortree_tabview"
+        android:name="com.gipra.kelebek.ui.Genealogy.SponsorTreeTabularView"
+        android:label="Sponsor Tree Tabular View"
+        tools:layout="@layout/fragment_sponsor_tree_tabular_view"/>
+
+
+
+
+
+
+</navigation>

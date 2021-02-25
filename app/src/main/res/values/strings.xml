@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kelebek</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MANDEE</string>
+    <string name="nav_header_subtitle">kelebek</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_myprofile">My Profile</string>
+    <string name="menu_changepsd">Change Password</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_productstore">Product store</string>
+    <string name="menu_upgrade">Upgrade to BA</string>
+    <string name="menu_genealogy">Genealogy</string>
+    <string name="menu_regform">Registration Form</string>
+    <string name="menu_wallet">Wallet</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_incomedetails">Income Details</string>
+    <string name="menu_news">News</string>
+    <string name="forgot_instruction">Enter your username and Moblie number. We will send an OTP via SMS.</string>
+
+    <string name="dotted_line">--------------------------------------------------</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
